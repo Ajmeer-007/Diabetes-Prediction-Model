@@ -25,7 +25,7 @@ Clone the repository:
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/diabetes-prediction.git
+git clone https://github.com/Ajmeer-007/diabetes-prediction.git
 cd diabetes-prediction
 Install dependencies:
 
