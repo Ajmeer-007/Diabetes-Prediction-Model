@@ -1,10 +1,10 @@
 Diabetes Prediction API
-This project is a Flask-based API for predicting diabetes using machine learning. The model is trained using Support Vector Machines (SVM) and can predict whether a person has diabetes based on their medical data.
+This project is a Flask-based API for predicting diabetes using machine learning. The model is trained using random forest (RF) and can predict whether a person has diabetes based on their medical data.
 
 🚀 Features
 Accepts JSON input via a POST request
 
-Uses a pre-trained SVM model
+Uses a pre-trained RF model
 
 Returns prediction results (1 = Diabetes, 0 = No Diabetes)
 
@@ -14,7 +14,7 @@ Built with Flask, Scikit-Learn, and NumPy
 bash
 Copy
 Edit
-├── model.pkl               # Trained SVM model
+├── model.pkl               # Trained RF model
 ├── app.py                  # Flask API script
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project Documentation
